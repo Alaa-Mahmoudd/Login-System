@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action=" " onsubmit="return handleSignup(event)">
+      <div class="content">
+        <div class="container">
+          <h1>Login System</h1>
+        </div>
+        <div class="container">
+          <input type="text" class="name" placeholder="Enter Your Name" />
+        </div>
+        <div class="container">
+          <input type="email" class="email" placeholder="Enter Your Email" />
+        </div>
+        <div class="container">
+          <input
+            type="password"
+            class="password"
+            placeholder="Enter Your Password"
+          />
+        </div>
+        <div class="container">
+          <p class="erorr"></p>
+          <p class="sucess"></p>
+        </div>
+        <div class="container">
+          <button type="submit" class="btn">Signup</button>
+        </div>
+        <div class="container">
+          <span>You have an account? <a href="login.html">Signin</a></span>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
